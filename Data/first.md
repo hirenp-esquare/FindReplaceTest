@@ -7,7 +7,7 @@ world Tester world Tester
 
 world Tester world Tester
 
-mtl.how/data world mtl.how/menu Tester mtl.how/sim
+mtl.how/data_test world mtl.how/menu_test Tester mtl.how/sim_test
 
 
 world Tester world Tester
