@@ -29,7 +29,7 @@ jobs:
         id: selftest
         uses: hirenp-waferwire/custom-find-replace-action@main
         with:
-          GlobPath: 'Data/**/*.md'
+          GlobPath: '**/*.md'
           FindReplace: '[{"find": "hello", "replace": "world" }, {"find": "Dev", "replace": "Tester"}]'
       # Use the output from the `selftest` step
       - name: Check outputs and modified files
