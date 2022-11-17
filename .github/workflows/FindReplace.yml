@@ -29,8 +29,8 @@ jobs:
         id: fn
         uses: hirenp-waferwire/custom-find-replace-action@main
         with:
-          GlobPath: '**/*.md'
-          FindReplace: '[{"find": "mtl.how/data_test", "replace": "mtl.how/data" }, {"find": "mtl.how/menu_test", "replace": "mtl.how/menu"}, {"find": "mtl.how/sim_test", "replace": "mtl.how/sim"}]'
+          GlobPath: 'release_4.0/*.md'
+          FindReplace: '[{"find": "mtl.how/data", "replace": "mtl.how/data_test" }, {"find": "mtl.how/menu", "replace": "mtl.how/menu_test"}, {"find": "mtl.how/sim", "replace": "mtl.how/sim_test"}]'
       
       
       - name: Check outputs and modified files
